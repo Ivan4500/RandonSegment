@@ -2,7 +2,7 @@
 #include "STRUCTS.H"
 
 #ifndef RandNumber
-#define RandNumber rand
+#define RandNumber MyRand
 #endif
 
 #define INIT_LIST_OF_COORDS_POINTS(_Begin, _End, COORDS_POINT_LIST, _STEP_, ___ABS___, _SIZE_T_, _PUSH_BACK_, _CLEAR_) COORDS_POINT_LIST._CLEAR_(); \

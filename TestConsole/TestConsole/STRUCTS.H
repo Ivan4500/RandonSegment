@@ -10,6 +10,8 @@
 #define _NameSpace namespace
 _Using _NameSpace std;
 
+
+
 #define _Const_Expr constexpr
 #define _Auto auto
 #define _Virtual virtual
@@ -49,6 +51,7 @@ _Typedef double DefaultRealNumType;
 _Typedef FILE _File_;
 _Typedef DefaultCharType* NulTermString;
 #define _Interface(x) _Virtual x = 0
+#define _MY_STRING_(x) DefaultCharType x[]
 
 #define DefaultSearchValue -1
 #define _GetCh _getch
