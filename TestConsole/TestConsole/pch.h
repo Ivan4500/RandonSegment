@@ -14,7 +14,8 @@
 #include "define.h"
 #include "STRUCTS.H"
 #include "MathAlg.h"
-
+#include "License.h"
+#include "RAND.H"
 _Typedef DefaultArray<Segment<DefaultTypeUsingNumber>> MyArray1;
 _Typedef DefaultArray<DefaultTypeUsingNumber> MyArray2;
 
